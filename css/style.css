@@ -67,6 +67,34 @@ img {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .site-header .container {
+        justify-content: space-between;
+    }
+
+    .site-logo {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .site-logo a {
+        font-size: 24px;
+    }
+
+    .header-icons {
+        order: 3; /* Move to the right */
+    }
+
+    .menu-toggle {
+        order: 4; /* Move to the far right */
+        margin-left: 20px; /* Add some space */
+    }
+
+    .main-nav {
+        order: 5; /* Ensure it's below other elements */
+    }
+}
+
 .site-logo a {
     font-family: var(--font-serif);
     font-size: 28px;
