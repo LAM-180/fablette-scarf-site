@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - FABLETTE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-logo"><a href="index.html">FABLETTE</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#featured-products">Collection</a></li>
+                    <li><a href="index.html#about-section">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="account.html" class="account-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </a>
+                <a href="cart.html" class="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="account-section">
+            <div class="container">
+                <div class="account-container">
+                    <div class="login-form">
+                        <h2 class="section-title">Login</h2>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="login-email">Email Address</label>
+                                <input type="email" id="login-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="login-password">Password</label>
+                                <input type="password" id="login-password" name="password" required>
+                            </div>
+                            <div class="form-submit">
+                                <button type="submit" class="btn">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="register-form">
+                        <h2 class="section-title">Create Account</h2>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="register-name">Name</label>
+                                <input type="text" id="register-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-email">Email Address</label>
+                                <input type="email" id="register-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-password">Password</label>
+                                <input type="password" id="register-password" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="register-address">Address</label>
+                                <input type="text" id="register-address" name="address">
+                            </div>
+                            <div class="form-group">
+                                <label for="register-phone">Phone Number</label>
+                                <input type="tel" id="register-phone" name="phone">
+                            </div>
+                            <div class="form-submit">
+                                <button type="submit" class="btn">Create</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="shipping.html">Shipping</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://lambertye.art/" target="_blank" rel="noopener noreferrer">Lambertye Art</a>
+                    <a href="https://www.instagram.com/lambertye.art/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 FABLETTE. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
