@@ -70,6 +70,7 @@ img {
 @media (max-width: 768px) {
     .site-header .container {
         justify-content: space-between;
+        align-items: center; /* Added to ensure vertical alignment */
     }
 
     .site-logo {
@@ -83,11 +84,18 @@ img {
 
     .header-icons {
         order: 3; /* Move to the right */
+        display: flex; /* Ensure icons are in a row */
+        align-items: center; /* Align icons vertically */
+    }
+
+    .account-icon,
+    .cart-icon {
+        margin-left: 15px; /* Adjust spacing between icons */
     }
 
     .menu-toggle {
         order: 4; /* Move to the far right */
-        margin-left: 20px; /* Add some space */
+        margin-left: 15px; /* Adjust spacing */
     }
 
     .main-nav {
